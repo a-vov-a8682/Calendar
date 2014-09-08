@@ -1,13 +1,10 @@
 package com.diosoft.trsine.calendar;
 
-import java.util.GregorianCalendar;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
-public interface DataStore {
-    Event searchById(UUID id);
-    Map <String, List<UUID>> searchByTitle(String title);
-    Map <GregorianCalendar, List<UUID>> searchByDate(GregorianCalendar date);
+public class DataStore {
+    Map<UUID, Event> eventMap = new HashMap<UUID, Event>();
+    Map <String, UUID> titleMap = new HashMap<String, UUID>();
+    Map <GregorianCalendar, UUID> dateMap = new HashMap<GregorianCalendar, UUID>();
 
 }

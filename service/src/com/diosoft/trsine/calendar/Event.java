@@ -118,9 +118,5 @@ public class Event {
         public Event build(){
             return new Event(this);
         }
-
-
-
-
     }
 }
