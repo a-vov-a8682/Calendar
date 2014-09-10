@@ -1,5 +1,6 @@
 package com.diosoft.trsine.calendar;
 
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.UUID;
@@ -67,9 +68,11 @@ public class Event {
     }
     @Override
     public String toString() {
-        return new StringBuffer("Event{").append("description='").append(description).append(", attenders=").
-                append(attenders).append(", date=").append(date).append(", title='").append(title).append(", id=").
-                append(id).append("} \n").toString();
+        return new StringBuffer("Event{").append("Title = ").append(title + "\n")
+                .append(", description = ").append(description + "\n")
+                .append(", attenders = ").append(attenders + "\n")
+                .append(", date = ").append(date.get(Calendar.DATE)).append(".").append(date.get(Calendar.MONTH)).append(".").append(date.get(Calendar.YEAR) + "\n")
+                .append(", id = ").append(id).append("} \n").toString();
     }
 
     public static class Builder{

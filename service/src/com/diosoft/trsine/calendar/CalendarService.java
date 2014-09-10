@@ -8,5 +8,5 @@ public interface CalendarService {
     void createEvent(String description, String email);
     void remove(UUID id);
     List<Event> searchByTitle (String title);
-    List<Event> searchByDay (GregorianCalendar date);
+    List<Event> searchByDate(GregorianCalendar date);
 }
