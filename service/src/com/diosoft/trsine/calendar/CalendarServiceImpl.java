@@ -18,11 +18,25 @@ public class CalendarServiceImpl implements CalendarService{
         store.titleMap.put(event.getTitle(), event.getId());
     }
     @Override
-    public void createEvent(String description, String email) {
-            new Event.Builder()
+    public Event createEvent(String description, List<String> emails) {
+        if (description == null || description.equals("")){
+            throw new NoSuchElementException();
+        }else if(emails == null){
+            return new Event.Builder()
+                    .id(UUID.randomUUID())
+                    .attenders(new ArrayList<String>())
+                    .title("")
+                    .date(new GregorianCalendar())
+                    .description(description)
+                    .build();
+        }
+        return new Event.Builder()
                 .id(UUID.randomUUID())
+                .attenders(new ArrayList<String>())
+                .title("")
+                .date(new GregorianCalendar())
                 .description(description)
-                .email(email)
+                .attenders(emails)
                 .build();
     }
     @Override
@@ -34,22 +48,35 @@ public class CalendarServiceImpl implements CalendarService{
     @Override
     public List<Event> searchByTitle(String title) {
         List<Event> result = new LinkedList<Event>();
+        if(title == null || title.equals("")){
+            return result;
+        }
         for (String storeTitle : store.titleMap.keySet()) {
             if(title.equals(storeTitle)){
                 result.add(store.eventMap.get(store.titleMap.get(title)));
             }
         }
+        if(result.size() == 0){
+            System.out.println("События с названием " + "'" + title + "'" + " не существует! \n");
+        }
         return result;
     }
     @Override
     public List<Event> searchByDate(GregorianCalendar date) {
+
         List<Event> result = new LinkedList<Event>();
+        if(date == null){
+            return result;
+        }
         for (GregorianCalendar storeDate : store.dateMap.keySet()) {
             if (date.get(GregorianCalendar.DATE) == storeDate.get(GregorianCalendar.DATE) &&
                 date.get(GregorianCalendar.MONTH) == storeDate.get(GregorianCalendar.MONTH) &&
                 date.get(GregorianCalendar.YEAR) == storeDate.get(GregorianCalendar.YEAR)){
                 result.add(store.eventMap.get(store.dateMap.get(date)));
             }
+        }
+        if (result.size() == 0){
+            System.out.println("В этот день нет событий! \n");
         }
         return result;
     }

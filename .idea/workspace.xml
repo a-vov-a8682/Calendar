@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java" line="182" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba7da47-268a-464e-ad60-dfac8febcf2f" name="Default" comment="" />
     <ignored path="untitled.iws" />
@@ -54,100 +57,15 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CalendarService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataStore.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-              <folding>
-                <element signature="method#Event#0;class#Event#0" expanded="false" />
-                <element signature="method#equals#0;class#Event#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Event#0" expanded="false" />
-                <element signature="method#toString#0;class#Event#0" expanded="false" />
-                <element signature="class#Builder#0;class#Event#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="935">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#385#393#0" expanded="true" />
-                <element signature="e#585#593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalendarServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding>
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
-                <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
-                <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-                <element signature="e#994#1001#0" expanded="true" />
-                <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-                <element signature="e#1354#1361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalendarServiceImplTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09139785" vertical-offset="0" max-vertical-offset="459">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding>
-                <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-                <element signature="e#964#971#0" expanded="true" />
-                <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
-                <element signature="e#1842#1849#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -160,12 +78,12 @@
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStoreImpl.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Main.java" />
-        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java" />
-        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java" />
-        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java" />
-        <option value="$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImplTest.groovy" />
+        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java" />
+        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java" />
+        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java" />
+        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java" />
         <option value="$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java" />
       </list>
     </option>
@@ -203,7 +121,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,12 +145,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,13 +201,13 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dioSoft" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -268,24 +222,96 @@
       <recent name="com.diosoft.trsine.calendar" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalendarServiceImplTest.testSearchByTitle">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="JUnit.CalendarServiceImplTest">
+    <configuration default="false" name="CalendarServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
+      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="service" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CalendarServiceImplTest.testCreateEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
+      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
+      <option name="METHOD_NAME" value="testCreateEvent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalendarServiceImplTest.testCreateEvent_withEmptyDescriptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
+      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
+      <option name="METHOD_NAME" value="testCreateEvent_withEmptyDescriptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalendarServiceImplTest.testSearchByDate_withNullDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
+      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
+      <option name="METHOD_NAME" value="testSearchByDate_withNullDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -297,56 +323,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="client" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalendarServiceImplTest.testSearchByTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
-      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
-      <option name="METHOD_NAME" value="testSearchByTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalendarServiceImplTest.testSearchByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
-      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
-      <option name="METHOD_NAME" value="testSearchByDate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -386,6 +362,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -411,19 +400,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -480,18 +456,20 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByTitle" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByDate" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent_withEmptyDescriptions" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByDate_withNullDate" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByTitle" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByDate" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByDate_withNullDate" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent_withEmptyDescriptions" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -518,9 +496,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -537,14 +514,41 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3512195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34146342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.297561" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -564,15 +568,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -580,6 +576,87 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2227">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding>
+            <element signature="method#Event#0;class#Event#0" expanded="false" />
+            <element signature="method#equals#0;class#Event#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Event#0" expanded="false" />
+            <element signature="method#toString#0;class#Event#0" expanded="false" />
+            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1054">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#874#881#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#1749#1756#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#2634#2641#0" expanded="true" />
+            <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#3477#3484#0" expanded="true" />
+            <element signature="method#testSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#4429#4436#0" expanded="true" />
+            <element signature="method#testCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#4846#4854#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#5732#5740#0" expanded="true" />
+            <element signature="method#testCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6505#6513#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#7974#7982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -615,14 +692,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="748">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
             <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,14 +736,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="663">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
             <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -709,14 +780,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
             <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,14 +824,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1037">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
             <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,14 +868,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
             <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -850,14 +912,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="578">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
             <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -897,14 +956,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="680">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
             <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -916,42 +972,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
+        <state vertical-scroll-proportion="-12.984127" vertical-offset="7033" max-vertical-offset="9027">
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
+    <entry file="file://$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.22486773" vertical-offset="510" max-vertical-offset="935">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#994#1001#0" expanded="true" />
-            <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
-            <element signature="e#1354#1361#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state vertical-scroll-proportion="1.2142857" vertical-offset="0" max-vertical-offset="629">
           <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding>
             <element signature="method#Event#0;class#Event#0" expanded="false" />
@@ -963,28 +1002,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java">
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="935">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="378">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="476">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#393#0" expanded="true" />
-            <element signature="e#585#593#0" expanded="true" />
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09139785" vertical-offset="0" max-vertical-offset="459">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.64021164" vertical-offset="149" max-vertical-offset="680">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#964#971#0" expanded="true" />
+            <element signature="e#874#881#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#1749#1756#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#2634#2641#0" expanded="true" />
             <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#1842#1849#0" expanded="true" />
+            <element signature="e#3477#3484#0" expanded="true" />
+            <element signature="method#testSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#4429#4436#0" expanded="true" />
+            <element signature="method#testCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#4846#4854#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#5732#5740#0" expanded="true" />
+            <element signature="method#testCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6505#6513#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#7974#7982#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44973546" vertical-offset="0" max-vertical-offset="378">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -68,11 +68,11 @@ public class Event {
     }
     @Override
     public String toString() {
-        return new StringBuffer("Event{").append("Title = ").append(title + "\n")
+        return new StringBuilder("Title = ").append(title + "\n")
                 .append(", description = ").append(description + "\n")
                 .append(", attenders = ").append(attenders + "\n")
-                .append(", date = ").append(date.get(Calendar.DATE)).append(".").append(date.get(Calendar.MONTH)).append(".").append(date.get(Calendar.YEAR) + "\n")
-                .append(", id = ").append(id).append("} \n").toString();
+                .append(", date = ").append(date.get(Calendar.DATE) + ".").append(date.get(Calendar.MONTH) + ".").append(date.get(Calendar.YEAR) + "\n")
+                .append(", id = ").append(id + "\n").toString();
     }
 
     public static class Builder{

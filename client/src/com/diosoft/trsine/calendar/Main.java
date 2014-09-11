@@ -1,16 +1,16 @@
 package com.diosoft.trsine.calendar;
 
 
-import java.util.ArrayList;
-import java.util.GregorianCalendar;
-import java.util.List;
-import java.util.UUID;
+import com.sun.corba.se.impl.logging.NamingSystemException;
+
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
         DataStore dataStore = new DataStore();
         CalendarService calendarService = new CalendarServiceImpl(dataStore);
+
         List<String> emails0 = new ArrayList<String>();
         emails0.add("111@aaa.com");
         emails0.add("222@bbb.com");
@@ -21,6 +21,7 @@ public class Main {
         emails1.add("222@bbb.com");
         emails1.add("567@efg.com");
 
+        calendarService.addEvent(calendarService.createEvent("Поездка на шашлык",emails0));
         calendarService.addEvent(new Event.Builder()
                 .id(UUID.randomUUID())
                 .date(new GregorianCalendar(2014, 11, 12))
@@ -41,6 +42,7 @@ public class Main {
             System.out.println(event.toString());
         }
         //Searching by date
+
         List<Event> listSearchByDate = calendarService.searchByDate(new GregorianCalendar(2014, 9, 10));
         for (Event event : listSearchByDate) {
             System.out.println(event.toString());
