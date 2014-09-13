@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java" line="182" />
+    <bookmark url="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java" line="416" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba7da47-268a-464e-ad60-dfac8febcf2f" name="Default" comment="" />
@@ -65,7 +65,103 @@
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="CalendarServiceImplTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36021507" vertical-offset="70" max-vertical-offset="1309">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testMockSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#703#711#0" expanded="true" />
+                <element signature="e#1285#1292#0" expanded="true" />
+                <element signature="method#testMockSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#2178#2185#0" expanded="true" />
+                <element signature="method#testMockSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#3074#3081#0" expanded="true" />
+                <element signature="method#testMockSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#3998#4005#0" expanded="true" />
+                <element signature="method#testMockSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#4930#4937#0" expanded="true" />
+                <element signature="method#testMockCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#5258#5266#0" expanded="true" />
+                <element signature="method#testMockCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#6013#6021#0" expanded="true" />
+                <element signature="method#testMockCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#6517#6525#0" expanded="true" />
+                <element signature="method#testMockCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="method#testMockCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#7867#7875#0" expanded="true" />
+                <element signature="method#testMockAddEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="method#testMockAddEvent_withNullEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#9631#9638#0" expanded="true" />
+                <element signature="method#testSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#10506#10513#0" expanded="true" />
+                <element signature="method#testSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#11391#11398#0" expanded="true" />
+                <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#12234#12241#0" expanded="true" />
+                <element signature="method#testSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#13186#13193#0" expanded="true" />
+                <element signature="method#testCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#13603#13611#0" expanded="true" />
+                <element signature="method#testCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#14376#14384#0" expanded="true" />
+                <element signature="method#testCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#15149#15157#0" expanded="true" />
+                <element signature="method#testCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="method#testCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+                <element signature="e#16589#16597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="739" max-vertical-offset="1292">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+              <folding>
+                <element signature="method#Event#0;class#Event#0" expanded="false" />
+                <element signature="method#equals#0;class#Event#0" expanded="false" />
+                <element signature="method#hashCode#0;class#Event#0" expanded="false" />
+                <element signature="method#toString#0;class#Event#0" expanded="false" />
+                <element signature="e#2710#2729#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="476">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+                <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+                <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
+                <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
+                <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="969">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -79,12 +175,12 @@
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStoreImpl.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Main.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImplTest.groovy" />
+        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java" />
         <option value="$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java" />
         <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java" />
-        <option value="$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java" />
-        <option value="$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -120,6 +216,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -128,6 +225,16 @@
               <option name="myItemId" value="Calendar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -136,24 +243,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,9 +274,26 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,8 +307,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -222,7 +328,51 @@
       <recent name="com.diosoft.trsine.calendar" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalendarServiceImplTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="CalendarServiceImplTest.testMockCreateEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
+      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
+      <option name="METHOD_NAME" value="testMockCreateEvent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalendarServiceImplTest.testMockSearchByDate_withNullDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
+      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
+      <option name="METHOD_NAME" value="testMockSearchByDate_withNullDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="CalendarServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -252,50 +402,6 @@
       <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
       <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
       <option name="METHOD_NAME" value="testCreateEvent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalendarServiceImplTest.testCreateEvent_withEmptyDescriptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
-      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
-      <option name="METHOD_NAME" value="testCreateEvent_withEmptyDescriptions" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalendarServiceImplTest.testSearchByDate_withNullDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.diosoft.trsine.calendar" />
-      <option name="MAIN_CLASS_NAME" value="com.diosoft.trsine.calendar.CalendarServiceImplTest" />
-      <option name="METHOD_NAME" value="testSearchByDate_withNullDate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -457,19 +563,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent_withEmptyDescriptions" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByDate_withNullDate" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testMockCreateEvent" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testMockSearchByDate_withNullDate" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent" />
       <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testSearchByDate_withNullDate" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent_withEmptyDescriptions" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testCreateEvent" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testMockCreateEvent" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalendarServiceImplTest.testMockSearchByDate_withNullDate" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -495,8 +601,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -514,8 +620,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34146342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3512195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -568,7 +674,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -576,6 +682,93 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+          <caret line="195" column="26" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testMockSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#703#711#0" expanded="true" />
+            <element signature="e#1285#1292#0" expanded="true" />
+            <element signature="method#testMockSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#2178#2185#0" expanded="true" />
+            <element signature="method#testMockSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#3074#3081#0" expanded="true" />
+            <element signature="method#testMockSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#3998#4005#0" expanded="true" />
+            <element signature="method#testMockSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#4930#4937#0" expanded="true" />
+            <element signature="method#testMockCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#5258#5266#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6013#6021#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6517#6525#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testMockCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#7867#7875#0" expanded="true" />
+            <element signature="method#testMockAddEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testMockAddEvent_withNullEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#9631#9638#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#10506#10513#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#11391#11398#0" expanded="true" />
+            <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#12234#12241#0" expanded="true" />
+            <element signature="method#testSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#13186#13193#0" expanded="true" />
+            <element signature="method#testCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#13603#13611#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#14376#14384#0" expanded="true" />
+            <element signature="method#testCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#15149#15157#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#16589#16597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="2244">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding>
+            <element signature="method#Event#0;class#Event#0" expanded="false" />
+            <element signature="method#equals#0;class#Event#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Event#0" expanded="false" />
+            <element signature="method#toString#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="255">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+          <caret line="30" column="29" selection-start-line="24" selection-start-column="19" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#remove#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#searchByTitle#0;class#CalendarServiceImpl#0" expanded="false" />
+            <element signature="method#searchByDate#0;class#CalendarServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
@@ -601,7 +794,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -634,25 +827,47 @@
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testMockSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#703#711#0" expanded="true" />
+            <element signature="e#1285#1292#0" expanded="true" />
+            <element signature="method#testMockSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#2178#2185#0" expanded="true" />
+            <element signature="method#testMockSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#3074#3081#0" expanded="true" />
+            <element signature="method#testMockSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#3998#4005#0" expanded="true" />
+            <element signature="method#testMockSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#4930#4937#0" expanded="true" />
+            <element signature="method#testMockCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#5258#5266#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6013#6021#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6517#6525#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testMockCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#7867#7875#0" expanded="true" />
+            <element signature="method#testMockAddEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testMockAddEvent_withNullEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
             <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#874#881#0" expanded="true" />
+            <element signature="e#9631#9638#0" expanded="true" />
             <element signature="method#testSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#1749#1756#0" expanded="true" />
+            <element signature="e#10506#10513#0" expanded="true" />
             <element signature="method#testSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#2634#2641#0" expanded="true" />
+            <element signature="e#11391#11398#0" expanded="true" />
             <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#3477#3484#0" expanded="true" />
+            <element signature="e#12234#12241#0" expanded="true" />
             <element signature="method#testSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#4429#4436#0" expanded="true" />
+            <element signature="e#13186#13193#0" expanded="true" />
             <element signature="method#testCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#4846#4854#0" expanded="true" />
+            <element signature="e#13603#13611#0" expanded="true" />
             <element signature="method#testCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#5732#5740#0" expanded="true" />
+            <element signature="e#14376#14384#0" expanded="true" />
             <element signature="method#testCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#6505#6513#0" expanded="true" />
+            <element signature="e#15149#15157#0" expanded="true" />
             <element signature="method#testCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
             <element signature="method#testCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#7974#7982#0" expanded="true" />
+            <element signature="e#16589#16597#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,7 +897,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,7 +941,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -770,7 +985,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -814,7 +1029,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -858,7 +1073,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -902,7 +1117,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -946,7 +1161,7 @@
             <element signature="method#equals#0;class#Event#0" expanded="false" />
             <element signature="method#hashCode#0;class#Event#0" expanded="false" />
             <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -980,40 +1195,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java">
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22486773" vertical-offset="510" max-vertical-offset="935">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44973546" vertical-offset="0" max-vertical-offset="378">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2142857" vertical-offset="0" max-vertical-offset="629">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding>
-            <element signature="method#Event#0;class#Event#0" expanded="false" />
-            <element signature="method#equals#0;class#Event#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Event#0" expanded="false" />
-            <element signature="method#toString#0;class#Event#0" expanded="false" />
-            <element signature="class#Builder#0;class#Event#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.7694611" vertical-offset="2208" max-vertical-offset="2567">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/DataStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="378">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1827957" vertical-offset="0" max-vertical-offset="372">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="476">
-          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="476">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="method#addEvent#0;class#CalendarServiceImpl#0" expanded="false" />
             <element signature="method#createEvent#0;class#CalendarServiceImpl#0" expanded="false" />
@@ -1024,40 +1232,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64021164" vertical-offset="149" max-vertical-offset="680">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="739" max-vertical-offset="1292">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#874#881#0" expanded="true" />
-            <element signature="method#testSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#1749#1756#0" expanded="true" />
-            <element signature="method#testSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#2634#2641#0" expanded="true" />
-            <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#3477#3484#0" expanded="true" />
-            <element signature="method#testSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#4429#4436#0" expanded="true" />
-            <element signature="method#testCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#4846#4854#0" expanded="true" />
-            <element signature="method#testCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#5732#5740#0" expanded="true" />
-            <element signature="method#testCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#6505#6513#0" expanded="true" />
-            <element signature="method#testCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="method#testCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
-            <element signature="e#7974#7982#0" expanded="true" />
+            <element signature="method#Event#0;class#Event#0" expanded="false" />
+            <element signature="method#equals#0;class#Event#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Event#0" expanded="false" />
+            <element signature="method#toString#0;class#Event#0" expanded="false" />
+            <element signature="e#2710#2729#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/com/diosoft/trsine/calendar/CalendarService.java">
+    <entry file="file://$PROJECT_DIR$/client/src/com/diosoft/trsine/calendar/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44973546" vertical-offset="0" max-vertical-offset="378">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="969">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/test/com/diosoft/trsine/calendar/CalendarServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36021507" vertical-offset="70" max-vertical-offset="1309">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testMockSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#703#711#0" expanded="true" />
+            <element signature="e#1285#1292#0" expanded="true" />
+            <element signature="method#testMockSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#2178#2185#0" expanded="true" />
+            <element signature="method#testMockSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#3074#3081#0" expanded="true" />
+            <element signature="method#testMockSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#3998#4005#0" expanded="true" />
+            <element signature="method#testMockSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#4930#4937#0" expanded="true" />
+            <element signature="method#testMockCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#5258#5266#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6013#6021#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#6517#6525#0" expanded="true" />
+            <element signature="method#testMockCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testMockCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#7867#7875#0" expanded="true" />
+            <element signature="method#testMockAddEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testMockAddEvent_withNullEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testSearchByTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#9631#9638#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withNullTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#10506#10513#0" expanded="true" />
+            <element signature="method#testSearchByTitle_withEmptyTitle#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#11391#11398#0" expanded="true" />
+            <element signature="method#testSearchByDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#12234#12241#0" expanded="true" />
+            <element signature="method#testSearchByDate_withNullDate#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#13186#13193#0" expanded="true" />
+            <element signature="method#testCreateEvent#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#13603#13611#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#14376#14384#0" expanded="true" />
+            <element signature="method#testCreateEvent_withEmptyDescriptions#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#15149#15157#0" expanded="true" />
+            <element signature="method#testCreateEvent_withNullEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="method#testCreateEvent_withEmptyEmailsList#0;class#CalendarServiceImplTest#0" expanded="false" />
+            <element signature="e#16589#16597#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,7 +1357,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>service</last-edited>
+          <last-edited>client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1126,6 +1370,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mockito-1.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

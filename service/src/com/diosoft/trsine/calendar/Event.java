@@ -12,7 +12,6 @@ public class Event {
     private final List<String> attenders;
     private final GregorianCalendar date;
     private final UUID id;
-    private final String email;
 
     private Event(Builder builder){
         this.description = builder.description;
@@ -20,7 +19,6 @@ public class Event {
         this.date = builder.date;
         this.title = builder.title;
         this.id = builder.id;
-        this.email = builder.email;
     }
 
     public String getDescription() {
@@ -37,9 +35,6 @@ public class Event {
     }
     public UUID getId() {
         return id;
-    }
-    public String getEmail(){
-        return email;
     }
 
     @Override
@@ -66,14 +61,32 @@ public class Event {
         result = 31 * result + (id != null ? id.hashCode() : 0);
         return result;
     }
+
     @Override
     public String toString() {
-        return new StringBuilder("Title = ").append(title + "\n")
-                .append(", description = ").append(description + "\n")
-                .append(", attenders = ").append(attenders + "\n")
-                .append(", date = ").append(date.get(Calendar.DATE) + ".").append(date.get(Calendar.MONTH) + ".").append(date.get(Calendar.YEAR) + "\n")
-                .append(", id = ").append(id + "\n").toString();
+        if(date == null){
+         return  "Title = " + title + "\n" +
+                 "Description = " + description + "\n" +
+                 "Attenders = " + attenders + "\n" +
+                 "Date = null" + "\n" +
+                 "Id = " + id + "\n";
+        }else {
+            return "Title = " + title + "\n" +
+                    "Description = " + description + "\n" +
+                    "Attenders = " + attenders + "\n" +
+                    "Date = " + date.get(Calendar.DATE) + "." + date.get(Calendar.MONTH) + "." + date.get(Calendar.YEAR) + "\n" +
+                    "Id = " + id + "\n";
+        }
     }
+
+//        @Override
+//    public String toString() {
+//        return new StringBuilder("Title = ").append(title + "\n")
+//                .append(", description = ").append(description + "\n")
+//                .append(", attenders = ").append(attenders + "\n")
+//                .append(", date = ").append(date.get(Calendar.DATE) + ".").append(date.get(Calendar.MONTH) + ".").append(date.get(Calendar.YEAR) + "\n")
+//                .append(", id = ").append(id + "\n").toString();
+//    }
 
     public static class Builder{
         private String title;
@@ -81,7 +94,6 @@ public class Event {
         private List<String> attenders;
         private GregorianCalendar date;
         private UUID id;
-        private String email;
 
         public Builder(){
         }
@@ -91,7 +103,6 @@ public class Event {
             this.date = original.date;
             this.title = original.title;
             this.id = original.id;
-            this.email = original.email;
         }
 
         public Builder description(String description){
@@ -112,10 +123,6 @@ public class Event {
         }
         public Builder id(UUID id){
             this.id = id;
-            return this;
-        }
-        public Builder email(String email){
-            this.email = email;
             return this;
         }
         public Event build(){

@@ -13,9 +13,13 @@ public class CalendarServiceImpl implements CalendarService{
 
     @Override
     public void addEvent(Event event) {
-        store.eventMap.put(event.getId(), event);
-        store.dateMap.put(event.getDate(), event.getId());
-        store.titleMap.put(event.getTitle(), event.getId());
+        if (event != null) {
+            store.eventMap.put(event.getId(), event);
+            store.dateMap.put(event.getDate(), event.getId());
+            store.titleMap.put(event.getTitle(), event.getId());
+        }else {
+            System.out.println("Введите событие!");
+        }
     }
     @Override
     public Event createEvent(String description, List<String> emails) {
@@ -23,20 +27,19 @@ public class CalendarServiceImpl implements CalendarService{
             throw new NoSuchElementException();
         }else if(emails == null){
             return new Event.Builder()
-                    .id(UUID.randomUUID())
+                    .id(null)
                     .attenders(new ArrayList<String>())
-                    .title("")
-                    .date(new GregorianCalendar())
+                    .title(null)
+                    .date(null)
                     .description(description)
                     .build();
         }
         return new Event.Builder()
-                .id(UUID.randomUUID())
-                .attenders(new ArrayList<String>())
-                .title("")
-                .date(new GregorianCalendar())
-                .description(description)
+                .id(null)
                 .attenders(emails)
+                .title(null)
+                .date(null)
+                .description(description)
                 .build();
     }
     @Override

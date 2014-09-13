@@ -21,7 +21,9 @@ public class Main {
         emails1.add("222@bbb.com");
         emails1.add("567@efg.com");
 
-        calendarService.addEvent(calendarService.createEvent("Поездка на шашлык",emails0));
+        Event e = calendarService.createEvent("Поездка на шашлык",emails0);
+        System.out.println(e.toString());
+
         calendarService.addEvent(new Event.Builder()
                 .id(UUID.randomUUID())
                 .date(new GregorianCalendar(2014, 11, 12))
