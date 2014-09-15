@@ -1,8 +1,6 @@
 package com.diosoft.trsine.calendar;
 
 
-import com.sun.corba.se.impl.logging.NamingSystemException;
-
 import java.util.*;
 
 public class Main {
