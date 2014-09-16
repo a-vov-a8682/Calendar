@@ -72,7 +72,8 @@ public class CalendarServiceImpl implements CalendarService{
             return result;
         }
         for (GregorianCalendar storeDate : store.dateMap.keySet()) {
-            if (date.get(GregorianCalendar.DATE) == storeDate.get(GregorianCalendar.DATE) &&
+            if (
+                date.get(GregorianCalendar.DATE) == storeDate.get(GregorianCalendar.DATE) &&
                 date.get(GregorianCalendar.MONTH) == storeDate.get(GregorianCalendar.MONTH) &&
                 date.get(GregorianCalendar.YEAR) == storeDate.get(GregorianCalendar.YEAR)){
                 result.add(store.eventMap.get(store.dateMap.get(date)));

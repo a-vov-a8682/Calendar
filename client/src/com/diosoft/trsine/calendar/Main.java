@@ -1,13 +1,26 @@
 package com.diosoft.trsine.calendar;
 
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        DataStore dataStore = new DataStore();
-        CalendarService calendarService = new CalendarServiceImpl(dataStore);
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        CalendarService calendarService = (CalendarService) context.getBean("calendarService");
+        DataStore dataStore = (DataStore) context.getBean("dataStore");
+
+
+
+
+
+
+
+
 
         List<String> emails0 = new ArrayList<String>();
         emails0.add("111@aaa.com");

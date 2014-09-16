@@ -28,7 +28,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="mockito-1.9" level="project" />
+    <orderEntry type="library" name="javadoc" level="project" />
   </component>
 </module>
 
