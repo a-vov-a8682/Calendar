@@ -9,18 +9,10 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         CalendarService calendarService = (CalendarService) context.getBean("calendarService");
-        DataStore dataStore = (DataStore) context.getBean("dataStore");
-
-
-
-
-
-
-
-
+        DataStoreImpl dataStore = (DataStoreImpl) context.getBean("dataStore");
+        System.out.println();
 
         List<String> emails0 = new ArrayList<String>();
         emails0.add("111@aaa.com");
@@ -35,14 +27,14 @@ public class Main {
         Event e = calendarService.createEvent("Поездка на шашлык",emails0);
         System.out.println(e.toString());
 
-        calendarService.addEvent(new Event.Builder()
+        dataStore.addEvent(new Event.Builder()
                 .id(UUID.randomUUID())
                 .date(new GregorianCalendar(2014, 11, 12))
                 .description("День рождения у Васи.")
                 .title("Birthday")
                 .attenders(emails0)
                 .build());
-        calendarService.addEvent(new Event.Builder()
+        dataStore.addEvent(new Event.Builder()
                 .id(UUID.randomUUID())
                 .date(new GregorianCalendar(2014, 9, 10))
                 .title("Party")
@@ -55,7 +47,6 @@ public class Main {
             System.out.println(event.toString());
         }
         //Searching by date
-
         List<Event> listSearchByDate = calendarService.searchByDate(new GregorianCalendar(2014, 9, 10));
         for (Event event : listSearchByDate) {
             System.out.println(event.toString());

@@ -3,7 +3,7 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="dataStore" class="com.diosoft.trsine.calendar.DataStore"/>
+    <bean id="dataStore" class="com.diosoft.trsine.calendar.DataStoreImpl"/>
 
     <bean id="calendarService" class="com.diosoft.trsine.calendar.CalendarServiceImpl">
         <constructor-arg ref="dataStore"/>
