@@ -1,16 +1,19 @@
 package com.diosoft.trsine.calendar;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.UUID;
 
-public class Event {
+public class Event implements Serializable{
 
     private final String title;
     private final String description;
     private final List<String> attenders;
     private final GregorianCalendar date;
+    private final GregorianCalendar startTime;
+    private final GregorianCalendar endTime;
     private final UUID id;
 
     private Event(Builder builder){
@@ -19,6 +22,8 @@ public class Event {
         this.date = builder.date;
         this.title = builder.title;
         this.id = builder.id;
+        this.startTime = builder.startTime;
+        this.endTime = builder.endTime;
     }
 
     public String getDescription() {
@@ -35,6 +40,12 @@ public class Event {
     }
     public UUID getId() {
         return id;
+    }
+    public GregorianCalendar getStartTime() {
+        return startTime;
+    }
+    public GregorianCalendar getEndTime() {
+        return endTime;
     }
 
     @Override
@@ -94,6 +105,8 @@ public class Event {
         private List<String> attenders;
         private GregorianCalendar date;
         private UUID id;
+        private GregorianCalendar startTime;
+        private GregorianCalendar endTime;
 
         public Builder(){
         }
@@ -103,6 +116,8 @@ public class Event {
             this.date = original.date;
             this.title = original.title;
             this.id = original.id;
+            this.startTime = original.startTime;
+            this.endTime = original.endTime;
         }
 
         public Builder description(String description){
@@ -123,6 +138,14 @@ public class Event {
         }
         public Builder id(UUID id){
             this.id = id;
+            return this;
+        }
+        public Builder startTime(GregorianCalendar startTime){
+            this.startTime = startTime;
+            return this;
+        }
+        public Builder endTime(GregorianCalendar endTime){
+            this.endTime = endTime;
             return this;
         }
         public Event build(){

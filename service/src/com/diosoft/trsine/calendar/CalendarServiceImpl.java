@@ -1,6 +1,7 @@
 package com.diosoft.trsine.calendar;
 
 
+import java.rmi.RemoteException;
 import java.util.*;
 
 public class CalendarServiceImpl implements CalendarService{
@@ -55,10 +56,17 @@ public class CalendarServiceImpl implements CalendarService{
         return result;
     }
 
-    public void addEvent(Event event){
+    @Override
+    public Event getEvent(String name) throws RemoteException {
+        return dataStore.getEvent(name);
+    }
+
+    @Override
+    public void addEvent(Event event) throws RemoteException {
         dataStore.addEvent(event);
     }
-    public void remove (UUID id){
-        dataStore.remove(id);
+    @Override
+    public void remove(UUID id) throws RemoteException {
+       dataStore.remove(id);
     }
 }

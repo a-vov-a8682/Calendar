@@ -36,7 +36,6 @@ public class CalendarServiceImplTest {
                 .attenders(inputAttenders)
                 .build();
 
-
         Event e2 = new Event.Builder()
                 .id(UUID.randomUUID())
                 .date(new GregorianCalendar(2014, 9, 10))
@@ -49,7 +48,6 @@ public class CalendarServiceImplTest {
         expectedList.add(e1);
 
         when(service.searchByTitle(inputTitle)).thenReturn(expectedList);
-        assertEquals(expectedList, service.searchByTitle(inputTitle));
     }
     @Test
     public void testMockSearchByTitle_withNullTitle() throws Exception{

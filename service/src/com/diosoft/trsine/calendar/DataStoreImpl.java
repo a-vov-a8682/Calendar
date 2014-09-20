@@ -23,5 +23,10 @@ public class DataStoreImpl implements DataStore {
         titleMap.remove(eventMap.get(id).getTitle());
         dateMap.remove(eventMap.get(id).getDate());
     }
+    @Override
+    public Event getEvent(String name) {
+        UUID id = titleMap.get(name);
+        return eventMap.get(id);
+    }
 
 }
