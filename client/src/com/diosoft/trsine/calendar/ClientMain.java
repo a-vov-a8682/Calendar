@@ -17,11 +17,18 @@ public class ClientMain {
         ApplicationContext context = new ClassPathXmlApplicationContext("clientApplicationContext.xml");
         CalendarService service = (CalendarService) context.getBean("calendarService");
 
-        String[] reservedCalendarNames = {"Путин Хуйло"};
+        List<String> emails0 = new ArrayList<String>();
+        emails0.add("111@aaa.com");
+        emails0.add("222@bbb.com");
+        emails0.add("333@ccc.com");
+        emails0.add("444@ddd.com");
+        
+        String[] reservedCalendarNames = {"Party"};
 
         for (String name : reservedCalendarNames) {
             service.addEvent(new Event.Builder()
                     .title(name)
+                    .attenders(emails0)
                     .build());
         }
 

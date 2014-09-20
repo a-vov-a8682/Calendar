@@ -3,9 +3,11 @@ package com.diosoft.trsine.calendar;
 
 import java.rmi.RemoteException;
 import java.util.*;
+import java.util.logging.Logger;
 
 public class CalendarServiceImpl implements CalendarService{
 
+    public static final Logger logger = Logger.getAnonymousLogger();
     private final DataStoreImpl dataStore;
 
     public CalendarServiceImpl(DataStoreImpl store) {
@@ -43,11 +45,9 @@ public class CalendarServiceImpl implements CalendarService{
             return result;
         }
         for (GregorianCalendar storeDate : dataStore.dateMap.keySet()) {
-            if (
-                date.get(GregorianCalendar.DATE) == storeDate.get(GregorianCalendar.DATE) &&
-                date.get(GregorianCalendar.MONTH) == storeDate.get(GregorianCalendar.MONTH) &&
-                date.get(GregorianCalendar.YEAR) == storeDate.get(GregorianCalendar.YEAR)){
+            if (date.getTimeInMillis() == storeDate.getTimeInMillis()){
                 result.add(dataStore.eventMap.get(dataStore.dateMap.get(date)));
+
             }
         }
         if (result.size() == 0){
@@ -62,8 +62,9 @@ public class CalendarServiceImpl implements CalendarService{
     }
 
     @Override
-    public void addEvent(Event event) throws RemoteException {
+    public void addEvent(Event event) {
         dataStore.addEvent(event);
+        logger.info("Published even on service side " + event.getTitle());
     }
     @Override
     public void remove(UUID id) throws RemoteException {
