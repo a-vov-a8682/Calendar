@@ -1,7 +1,7 @@
 package com.diosoft.trsine.calendar;
 
-import java.rmi.Remote;
-import java.rmi.RemoteException;
+import com.diosoft.trsine.calendar.common.Event;
+
 import java.util.UUID;
 
 public interface DataStore{

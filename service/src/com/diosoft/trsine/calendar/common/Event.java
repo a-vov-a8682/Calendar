@@ -1,4 +1,4 @@
-package com.diosoft.trsine.calendar;
+package com.diosoft.trsine.calendar.common;
 
 import java.io.Serializable;
 import java.util.Calendar;
@@ -11,19 +11,19 @@ public class Event implements Serializable{
     private final String title;
     private final String description;
     private final List<String> attenders;
-    private final GregorianCalendar date;
     private final GregorianCalendar startTime;
     private final GregorianCalendar endTime;
     private final UUID id;
+    private final EventType eventType;
 
     private Event(Builder builder){
         this.description = builder.description;
         this.attenders = builder.attenders;
-        this.date = builder.date;
         this.title = builder.title;
         this.id = builder.id;
         this.startTime = builder.startTime;
         this.endTime = builder.endTime;
+        this.eventType = builder.eventType;
     }
 
     public String getDescription() {
@@ -31,9 +31,6 @@ public class Event implements Serializable{
     }
     public List<String> getAttenders() {
         return attenders;
-    }
-    public GregorianCalendar getDate() {
-        return date;
     }
     public String getTitle() {
         return title;
@@ -47,6 +44,9 @@ public class Event implements Serializable{
     public GregorianCalendar getEndTime() {
         return endTime;
     }
+    public EventType eventType() {
+        return eventType;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -56,41 +56,41 @@ public class Event implements Serializable{
         Event event = (Event) o;
 
         if (attenders != null ? !attenders.equals(event.attenders) : event.attenders != null) return false;
-        if (date != null ? !date.equals(event.date) : event.date != null) return false;
         if (description != null ? !description.equals(event.description) : event.description != null) return false;
+        if (endTime != null ? !endTime.equals(event.endTime) : event.endTime != null) return false;
+        if (eventType != event.eventType) return false;
         if (id != null ? !id.equals(event.id) : event.id != null) return false;
+        if (startTime != null ? !startTime.equals(event.startTime) : event.startTime != null) return false;
         if (title != null ? !title.equals(event.title) : event.title != null) return false;
 
         return true;
     }
+
     @Override
     public int hashCode() {
-        int result = description != null ? description.hashCode() : 0;
+        int result = title != null ? title.hashCode() : 0;
+        result = 31 * result + (description != null ? description.hashCode() : 0);
         result = 31 * result + (attenders != null ? attenders.hashCode() : 0);
-        result = 31 * result + (date != null ? date.hashCode() : 0);
-        result = 31 * result + (title != null ? title.hashCode() : 0);
+        result = 31 * result + (startTime != null ? startTime.hashCode() : 0);
+        result = 31 * result + (endTime != null ? endTime.hashCode() : 0);
         result = 31 * result + (id != null ? id.hashCode() : 0);
+        result = 31 * result + (eventType != null ? eventType.hashCode() : 0);
         return result;
     }
 
     @Override
     public String toString() {
-        if(date == null){
-         return  "Title = " + title + "\n" +
-                 "Description = " + description + "\n" +
-                 "Attenders = " + attenders + "\n" +
-                 "Date = null" + "\n" +
-                 "Id = " + id + "\n";
-        }else {
-            return "Title = " + title + "\n" +
-                    "Description = " + description + "\n" +
-                    "Attenders = " + attenders + "\n" +
-                    "Date = " + date.get(Calendar.DATE) + "." + date.get(Calendar.MONTH) + "." + date.get(Calendar.YEAR) + "\n" +
-                    "Id = " + id + "\n";
-        }
+        return "Event{" +
+                "title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", attenders=" + attenders +
+                ", startTime=" + startTime +
+                ", endTime=" + endTime +
+                ", id=" + id +
+                ", eventType=" + eventType +
+                '}';
     }
-
-//        @Override
+    //        @Override
 //    public String toString() {
 //        return new StringBuilder("Title = ").append(title + "\n")
 //                .append(", description = ").append(description + "\n")
@@ -103,21 +103,21 @@ public class Event implements Serializable{
         private String title;
         private String description;
         private List<String> attenders;
-        private GregorianCalendar date;
         private UUID id;
         private GregorianCalendar startTime;
         private GregorianCalendar endTime;
+        private EventType eventType;
 
         public Builder(){
         }
         public Builder(Event original){
             this.description = original.description;
             this.attenders = original.attenders;
-            this.date = original.date;
             this.title = original.title;
             this.id = original.id;
             this.startTime = original.startTime;
             this.endTime = original.endTime;
+            this.eventType = original.eventType;
         }
 
         public Builder description(String description){
@@ -126,10 +126,6 @@ public class Event implements Serializable{
         }
         public Builder attenders(List<String> attenders){
             this.attenders = attenders;
-            return this;
-        }
-        public Builder date(GregorianCalendar date){
-            this.date = date;
             return this;
         }
         public Builder title(String title){
@@ -146,6 +142,10 @@ public class Event implements Serializable{
         }
         public Builder endTime(GregorianCalendar endTime){
             this.endTime = endTime;
+            return this;
+        }
+        public Builder eventType(EventType eventType){
+            this.eventType = eventType;
             return this;
         }
         public Event build(){

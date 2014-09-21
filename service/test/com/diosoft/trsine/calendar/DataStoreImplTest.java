@@ -1,5 +1,6 @@
 package com.diosoft.trsine.calendar;
 
+import com.diosoft.trsine.calendar.common.Event;
 import org.junit.Before;
 import org.junit.Test;
 import java.util.GregorianCalendar;

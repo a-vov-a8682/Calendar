@@ -1,6 +1,8 @@
 package com.diosoft.trsine.calendar;
 
 
+import com.diosoft.trsine.calendar.common.Event;
+
 import java.rmi.RemoteException;
 import java.util.*;
 import java.util.logging.Logger;
@@ -39,7 +41,6 @@ public class CalendarServiceImpl implements CalendarService{
     }
     @Override
     public List<Event> searchByDate(GregorianCalendar date) {
-
         List<Event> result = new LinkedList<Event>();
         if(date == null){
             return result;
@@ -47,27 +48,57 @@ public class CalendarServiceImpl implements CalendarService{
         for (GregorianCalendar storeDate : dataStore.dateMap.keySet()) {
             if (date.getTimeInMillis() == storeDate.getTimeInMillis()){
                 result.add(dataStore.eventMap.get(dataStore.dateMap.get(date)));
-
             }
         }
-        if (result.size() == 0){
-            System.out.println("В этот день нет событий! \n");
+        return result;
+    }
+    @Override
+    public List<Event> searchByAttenderByTime(String attender, GregorianCalendar time){
+        List<Event> result = new ArrayList<Event>();
+        List<Event> sbt = searchByTime(time);
+
+        for (Event event : sbt) {
+            if (event.getAttenders().contains(attender)) {
+                result.add(event);
+            }
         }
         return result;
     }
 
+    public List<Event> searchByTime(GregorianCalendar time){
+        int year = time.get(Calendar.YEAR);
+        int month = time.get(Calendar.MONTH);
+        int day = time.get(Calendar.DATE);
+        List<Event> byDate = searchByDate(new GregorianCalendar(year, month, day));
+        List<Event> result = new ArrayList<Event>();
+
+        for (Event event : byDate) {
+            if(event.getStartTime() == time){
+                result.add(event);
+            }
+        }
+        return result;
+    }
     @Override
-    public Event getEvent(String name) throws RemoteException {
+    public Event getEvent(String name) {
         return dataStore.getEvent(name);
     }
-
     @Override
     public void addEvent(Event event) {
         dataStore.addEvent(event);
-        logger.info("Published even on service side " + event.getTitle());
+        logger.info("Published even on service side \n" + event.toString());
     }
     @Override
     public void remove(UUID id) throws RemoteException {
        dataStore.remove(id);
+    }
+    @Override
+    public boolean isFree(String attender, GregorianCalendar time){
+        List<Event> eventList = searchByTime(time);
+        List<String> attrs = new ArrayList<String>();
+        for (Event event : eventList){
+            attrs.addAll(event.getAttenders());
+        }
+        return attrs.contains(attender) ? false : true;
     }
 }

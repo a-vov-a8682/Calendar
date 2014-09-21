@@ -1,5 +1,7 @@
 package com.diosoft.trsine.calendar;
 
+import com.diosoft.trsine.calendar.common.Event;
+
 import java.util.*;
 
 public class DataStoreImpl implements DataStore {
@@ -11,7 +13,7 @@ public class DataStoreImpl implements DataStore {
     public void addEvent(Event event) {
         if (event != null) {
             eventMap.put(event.getId(), event);
-            dateMap.put(event.getDate(), event.getId());
+            dateMap.put(event.getStartTime(), event.getId());
             titleMap.put(event.getTitle(), event.getId());
         } else {
             System.out.println("Введите событие!");
@@ -21,7 +23,7 @@ public class DataStoreImpl implements DataStore {
     public void remove(UUID id) {
         eventMap.remove(id);
         titleMap.remove(eventMap.get(id).getTitle());
-        dateMap.remove(eventMap.get(id).getDate());
+        dateMap.remove(eventMap.get(id).getStartTime());
     }
     @Override
     public Event getEvent(String name) {
