@@ -8,5 +8,6 @@ public interface DataStore{
 
     void addEvent(Event event);
     void remove(UUID id);
-    Event getEvent(String name);
+    Event getEvent(UUID id);
+
     }

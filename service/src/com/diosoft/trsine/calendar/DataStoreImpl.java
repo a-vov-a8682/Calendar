@@ -6,15 +6,13 @@ import java.util.*;
 
 public class DataStoreImpl implements DataStore {
     Map<UUID, Event> eventMap = new HashMap<UUID, Event>();
-    Map<String, UUID> titleMap = new HashMap<String, UUID>();
-    Map<GregorianCalendar, UUID> dateMap = new HashMap<GregorianCalendar, UUID>();
 
     @Override
     public void addEvent(Event event) {
-        if (event != null) {
-            eventMap.put(event.getId(), event);
-            dateMap.put(event.getStartTime(), event.getId());
-            titleMap.put(event.getTitle(), event.getId());
+        if (!(eventMap.containsKey(event.getId()))){
+            if(event != null){
+                eventMap.put(event.getId(), event);
+            }
         } else {
             System.out.println("Введите событие!");
         }
@@ -22,13 +20,9 @@ public class DataStoreImpl implements DataStore {
     @Override
     public void remove(UUID id) {
         eventMap.remove(id);
-        titleMap.remove(eventMap.get(id).getTitle());
-        dateMap.remove(eventMap.get(id).getStartTime());
     }
     @Override
-    public Event getEvent(String name) {
-        UUID id = titleMap.get(name);
+    public Event getEvent(UUID id) {
         return eventMap.get(id);
     }
-
 }

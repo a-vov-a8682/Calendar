@@ -33,30 +33,29 @@ public class ClientMain {
         service.addEvent(new Event.Builder()
                 .id(UUID.randomUUID())
                 .startTime(new GregorianCalendar(2014, 11, 12, 10, 15))
-                .endTime(new GregorianCalendar(2014, 11, 12, 22, 15))
+                .endTime(new GregorianCalendar(2014, 11, 12, 21, 15))
                 .description("День рождения у Васи.")
                 .title("Birthday")
                 .attenders(emails0)
                 .build());
+
         service.addEvent(new Event.Builder()
-                .eventType(EventType.ALLDAY)
                 .id(UUID.randomUUID())
-                .startTime(new GregorianCalendar(2014, 9, 10, 12, 00))
+                .startTime(new GregorianCalendar(2014, 9, 10, 2, 15))
                 .endTime(new GregorianCalendar(2014, 9, 10, 12, 30))
                 .title("Party")
                 .attenders(emails1)
                 .build());
 
-        //Searching by title
-        List<Event> listSearchByTitle = service.searchByTitle("Birthday");
-        for (Event event : listSearchByTitle) {
-            System.out.println(event.toString());
-        }
+        Event e = new Event.Builder()
+                .id(UUID.randomUUID())
+                .startTime(new GregorianCalendar(2014, 11, 12, 12, 30))
+                .endTime(new GregorianCalendar(2014, 11, 12, 12, 40))
+                .title("Lunch")
+                .build();
+        service.addEvent(e);
 
-        //Searching by date
-        List<Event> listSearchByDate = service.searchByDate(new GregorianCalendar(2014, 9, 10));
-        for (Event event : listSearchByDate) {
-            System.out.println(event.toString());
-        }
+        Event er = service.searchByAttendeeByTime("567@efg.com",new GregorianCalendar(2014, 9, 10, 2, 15));
+        System.out.println(er.getTitle());
     }
 }

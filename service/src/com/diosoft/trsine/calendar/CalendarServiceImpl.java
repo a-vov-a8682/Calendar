@@ -2,6 +2,7 @@ package com.diosoft.trsine.calendar;
 
 
 import com.diosoft.trsine.calendar.common.Event;
+import com.diosoft.trsine.calendar.common.EventType;
 
 import java.rmi.RemoteException;
 import java.util.*;
@@ -28,77 +29,71 @@ public class CalendarServiceImpl implements CalendarService{
         List<Event> result = new LinkedList<Event>();
         if(title == null || title.equals("")){
             return result;
-        }
-        for (String storeTitle : dataStore.titleMap.keySet()) {
-            if(title.equals(storeTitle)){
-                result.add(dataStore.eventMap.get(dataStore.titleMap.get(title)));
+        }else {
+            for (Map.Entry<UUID, Event> entry : dataStore.eventMap.entrySet()) {
+                if (entry.getValue().getTitle().equals(title)){
+                    result.add(entry.getValue());
+                }
             }
+            return result;
         }
-        if(result.size() == 0){
-            System.out.println("События с названием " + "'" + title + "'" + " не существует! \n");
-        }
-        return result;
     }
     @Override
     public List<Event> searchByDate(GregorianCalendar date) {
         List<Event> result = new LinkedList<Event>();
-        if(date == null){
-            return result;
-        }
-        for (GregorianCalendar storeDate : dataStore.dateMap.keySet()) {
-            if (date.getTimeInMillis() == storeDate.getTimeInMillis()){
-                result.add(dataStore.eventMap.get(dataStore.dateMap.get(date)));
+        for(Map.Entry<UUID, Event> entry : dataStore.eventMap.entrySet()){
+            int year = entry.getValue().getStartTime().get(GregorianCalendar.YEAR);
+            int month = entry.getValue().getStartTime().get(GregorianCalendar.MONTH);
+            int day = entry.getValue().getStartTime().get(GregorianCalendar.DATE);
+
+            GregorianCalendar tempDate = new GregorianCalendar(year, month, day);
+            if (tempDate.equals(date)){
+                result.add(entry.getValue());
             }
         }
         return result;
     }
     @Override
-    public List<Event> searchByAttenderByTime(String attender, GregorianCalendar time){
-        List<Event> result = new ArrayList<Event>();
-        List<Event> sbt = searchByTime(time);
-
-        for (Event event : sbt) {
-            if (event.getAttenders().contains(attender)) {
-                result.add(event);
-            }
-        }
-        return result;
-    }
-
-    public List<Event> searchByTime(GregorianCalendar time){
-        int year = time.get(Calendar.YEAR);
-        int month = time.get(Calendar.MONTH);
-        int day = time.get(Calendar.DATE);
-        List<Event> byDate = searchByDate(new GregorianCalendar(year, month, day));
-        List<Event> result = new ArrayList<Event>();
-
-        for (Event event : byDate) {
-            if(event.getStartTime() == time){
-                result.add(event);
+    public Event searchByAttendeeByTime(String attendee, GregorianCalendar time){
+        Event result = new Event.Builder().build();
+        for (Map.Entry<UUID, Event> entry : dataStore.eventMap.entrySet()) {
+            if (entry.getValue().getAttenders() != null){
+                if (entry.getValue().getAttenders().contains(attendee)) {
+                    if (entry.getValue().getEventType() != EventType.ALLDAY) {
+                        long startTime = entry.getValue().getStartTime().getTimeInMillis();
+                        long endTime = entry.getValue().getEndTime().getTimeInMillis();
+                        if (time.getTimeInMillis() >= startTime && time.getTimeInMillis() <= endTime) {
+                            result = entry.getValue();
+                        }
+                    }
+                }
             }
         }
         return result;
     }
     @Override
-    public Event getEvent(String name) {
-        return dataStore.getEvent(name);
+    public Event getEvent(UUID id) {
+        return dataStore.getEvent(id);
     }
     @Override
     public void addEvent(Event event) {
         dataStore.addEvent(event);
-        logger.info("Published even on service side \n" + event.toString());
+        logger.info("Published even on service side \n" + event.getTitle() + "\n");
     }
     @Override
-    public void remove(UUID id) throws RemoteException {
+    public void remove(UUID id){
        dataStore.remove(id);
     }
     @Override
-    public boolean isFree(String attender, GregorianCalendar time){
-        List<Event> eventList = searchByTime(time);
-        List<String> attrs = new ArrayList<String>();
-        for (Event event : eventList){
-            attrs.addAll(event.getAttenders());
-        }
-        return attrs.contains(attender) ? false : true;
+    public boolean isFree(String attendee, GregorianCalendar time){
+        return searchByAttendeeByTime(attendee, time).getTitle() == null ? true : false;
+    }
+    @Override
+    public Set<GregorianCalendar> bestEventTime(String attendee, GregorianCalendar date) {
+        Set<GregorianCalendar> result = new HashSet<GregorianCalendar>();
+
+
+
+        return result;
     }
 }

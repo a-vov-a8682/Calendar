@@ -44,7 +44,7 @@ public class Event implements Serializable{
     public GregorianCalendar getEndTime() {
         return endTime;
     }
-    public EventType eventType() {
+    public EventType getEventType() {
         return eventType;
     }
 
@@ -80,24 +80,17 @@ public class Event implements Serializable{
 
     @Override
     public String toString() {
-        return "Event{" +
-                "title='" + title + '\'' +
-                ", description='" + description + '\'' +
-                ", attenders=" + attenders +
-                ", startTime=" + startTime +
-                ", endTime=" + endTime +
-                ", id=" + id +
-                ", eventType=" + eventType +
-                '}';
+        final StringBuilder sb = new StringBuilder();
+        sb.append("Title = ").append(title + "\n");
+        sb.append("Description = ").append(description + "\n");
+        sb.append("StartTime = ").append(startTime.get(Calendar.DATE) + "." + startTime.get(Calendar.MONTH) + "." + startTime.get(Calendar.YEAR) + " " +
+                startTime.get(Calendar.HOUR_OF_DAY) + ":" + startTime.get(Calendar.MINUTE) + "\n");
+        sb.append("EndTime = ").append(endTime.get(Calendar.DATE) + "." + endTime.get(Calendar.MONTH) + "." + endTime.get(Calendar.YEAR) + " " +
+                endTime.get(Calendar.HOUR_OF_DAY) + ":" + endTime.get(Calendar.MINUTE) + "\n");
+        sb.append("Attenders = ").append(attenders + "\n");
+        sb.append("EventType = ").append(eventType + "\n");
+        return sb.toString();
     }
-    //        @Override
-//    public String toString() {
-//        return new StringBuilder("Title = ").append(title + "\n")
-//                .append(", description = ").append(description + "\n")
-//                .append(", attenders = ").append(attenders + "\n")
-//                .append(", date = ").append(date.get(Calendar.DATE) + ".").append(date.get(Calendar.MONTH) + ".").append(date.get(Calendar.YEAR) + "\n")
-//                .append(", id = ").append(id + "\n").toString();
-//    }
 
     public static class Builder{
         private String title;

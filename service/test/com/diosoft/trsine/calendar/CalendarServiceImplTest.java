@@ -31,7 +31,7 @@ public class CalendarServiceImplTest {
 
         Event e1 = new Event.Builder()
                 .id(id)
-                .date(inputDate)
+                .startTime(inputDate)
                 .description(inputDescriptions)
                 .title(inputTitle)
                 .attenders(inputAttenders)
@@ -39,7 +39,7 @@ public class CalendarServiceImplTest {
 
         Event e2 = new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 9, 10))
+                .startTime(new GregorianCalendar(2014, 9, 10))
                 .title("Party")
                 .build();
 
@@ -57,13 +57,13 @@ public class CalendarServiceImplTest {
 
         service.addEvent(new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 11, 12))
+                .startTime(new GregorianCalendar(2014, 11, 12))
                 .description("День рождения у Васи.")
                 .title("Birthday")
                 .build());
         service.addEvent(new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 9, 10))
+                .startTime(new GregorianCalendar(2014, 9, 10))
                 .title("Party")
                 .build());
         List<Event> expectedList = new ArrayList<Event>();
@@ -77,13 +77,13 @@ public class CalendarServiceImplTest {
         String title = "";
         Event e1 = new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 11, 12))
+                .startTime(new GregorianCalendar(2014, 11, 12))
                 .description("День рождения у Васи.")
                 .title("Birthday")
                 .build();
         Event e2 = new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 9, 10))
+                .startTime(new GregorianCalendar(2014, 9, 10))
                 .title("Party")
                 .build();
         service.addEvent(e1);
@@ -100,13 +100,13 @@ public class CalendarServiceImplTest {
         GregorianCalendar date = new GregorianCalendar(2014, 9, 10);
         Event e1 = new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 11, 12))
+                .startTime(new GregorianCalendar(2014, 11, 12))
                 .description("День рождения у Васи.")
                 .title("Birthday")
                 .build();
         Event e2 = new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 9, 10))
+                .startTime(new GregorianCalendar(2014, 9, 10))
                 .title("Party")
                 .build();
 
@@ -125,13 +125,13 @@ public class CalendarServiceImplTest {
 
         Event e1 = new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 11, 12))
+                .startTime(new GregorianCalendar(2014, 11, 12))
                 .description("День рождения у Васи.")
                 .title("Birthday")
                 .build();
         Event e2 = new Event.Builder()
                 .id(UUID.randomUUID())
-                .date(new GregorianCalendar(2014, 9, 10))
+                .startTime(new GregorianCalendar(2014, 9, 10))
                 .title("Party")
                 .build();
         service.addEvent(e1);

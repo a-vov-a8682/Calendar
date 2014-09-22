@@ -22,7 +22,7 @@ public class DataStoreImplTest {
     public void testAddEvent() throws Exception {
         Event event = new Event.Builder()
                 .title("Christmas")
-                .date(new GregorianCalendar(2014, 11, 23))
+                .startTime(new GregorianCalendar(2014, 11, 23))
                 .build();
 
         calendarService.addEvent(event);
