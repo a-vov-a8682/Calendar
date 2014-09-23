@@ -96,4 +96,11 @@ public class CalendarServiceImpl implements CalendarService{
 
         return result;
     }
+
+    @Override
+    public List<Event> getEventBySubTitle(String subTitle) {
+        List<Event> eventList = dataStore.getEventBySubTitle(subTitle);
+        return eventList;
+    }
+
 }

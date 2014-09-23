@@ -22,7 +22,24 @@ public class DataStoreImpl implements DataStore {
         eventMap.remove(id);
     }
     @Override
-    public Event getEvent(UUID id) {
-        return eventMap.get(id);
+
+        public Event getEvent(UUID id) {
+            return eventMap.get(id);
+        }
+
+    @Override
+    public List<Event> getEventBySubTitle(String subTitle) {
+        if(subTitle == null){
+            throw new IllegalArgumentException();
+        }
+
+        Collection<Event> eventList = eventMap.values();
+        List<Event> eventListRes = new ArrayList<Event>();
+        for (Event event : eventList) {
+            if (event.getTitle().startsWith(subTitle)) {
+                eventListRes.add(event);
+            }
+        }
+        return eventListRes;
     }
 }

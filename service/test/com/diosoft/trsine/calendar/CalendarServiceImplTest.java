@@ -1,12 +1,11 @@
 package com.diosoft.trsine.calendar;
 
 import com.diosoft.trsine.calendar.common.Event;
+import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.*;
-
 import static org.junit.Assert.*;
+import java.util.*;
 import static org.mockito.Mockito.*;
 
 

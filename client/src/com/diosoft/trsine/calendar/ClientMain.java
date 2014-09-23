@@ -57,5 +57,8 @@ public class ClientMain {
 
         Event er = service.searchByAttendeeByTime("567@efg.com",new GregorianCalendar(2014, 9, 10, 2, 15));
         System.out.println(er.getTitle());
+
+
+
     }
 }
