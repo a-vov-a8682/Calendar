@@ -7,10 +7,9 @@ import java.util.UUID;
 
 public interface DataStore{
 
-    void addEvent(Event event);
-    void remove(UUID id);
-    Event getEvent(UUID id);
-
+    void addEvent (Event event);
+    void remove (UUID id);
+    Event getEvent (UUID id);
+    void editEvent (Event oldEvent, Event newEvent);
     List<Event> getEventBySubTitle (String subTitle);
-
     }

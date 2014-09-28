@@ -86,7 +86,7 @@ public class CalendarServiceImpl implements CalendarService{
     }
     @Override
     public boolean isFree(String attendee, GregorianCalendar time){
-        return searchByAttendeeByTime(attendee, time).getTitle() == null ? true : false;
+        return searchByAttendeeByTime(attendee, time).getTitle() == null;
     }
     @Override
     public Set<GregorianCalendar> bestEventTime(String attendee, GregorianCalendar date) {
@@ -96,11 +96,12 @@ public class CalendarServiceImpl implements CalendarService{
 
         return result;
     }
-
     @Override
     public List<Event> getEventBySubTitle(String subTitle) {
-        List<Event> eventList = dataStore.getEventBySubTitle(subTitle);
-        return eventList;
+        return dataStore.getEventBySubTitle(subTitle);
     }
-
+    @Override
+    public void editEvent(Event event1, Event event2) throws RemoteException {
+        dataStore.editEvent(event1, event2);
+    }
 }

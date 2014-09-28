@@ -18,5 +18,7 @@ public interface CalendarService extends Remote {
     boolean isFree (String attendee, GregorianCalendar time) throws RemoteException;
     Set<GregorianCalendar> bestEventTime (String attendee, GregorianCalendar date) throws RemoteException;
     List<Event> getEventBySubTitle (String subTitle) throws RemoteException;
+    void editEvent (Event event1, Event event2) throws RemoteException;
+
 
 }
