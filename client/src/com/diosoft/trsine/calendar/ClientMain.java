@@ -19,46 +19,45 @@ public class ClientMain {
         ApplicationContext context = new ClassPathXmlApplicationContext("clientApplicationContext.xml");
         CalendarService service = (CalendarService) context.getBean("calendarService");
 
-        List<String> emails0 = new ArrayList<String>();
-        emails0.add("111@aaa.com");
-        emails0.add("222@bbb.com");
-        emails0.add("333@ccc.com");
-        emails0.add("444@ddd.com");
+//        List<String> emails0 = new ArrayList<String>();
+//        emails0.add("111@aaa.com");
+//        emails0.add("222@bbb.com");
+//        emails0.add("333@ccc.com");
+//        emails0.add("444@ddd.com");
+//
+//        List<String> emails1 = new ArrayList<String>();
+//        emails1.add("555@eee.com");
+//        emails1.add("222@bbb.com");
+//        emails1.add("567@efg.com");
+//
+//        service.addEvent(new Event.Builder()
+//                .id(UUID.randomUUID())
+//                .startTime(new GregorianCalendar(2014, 11, 12, 10, 15))
+//                .endTime(new GregorianCalendar(2014, 11, 12, 21, 15))
+//                .description("День рождения у Васи.")
+//                .title("Birthday")
+//                .attenders(emails0)
+//                .build());
+//
+//        service.addEvent(new Event.Builder()
+//                .id(UUID.randomUUID())
+//                .startTime(new GregorianCalendar(2014, 9, 10, 2, 15))
+//                .endTime(new GregorianCalendar(2014, 9, 10, 12, 30))
+//                .title("Party")
+//                .attenders(emails1)
+//                .build());
+//
+//        Event e = new Event.Builder()
+//                .id(UUID.randomUUID())
+//                .startTime(new GregorianCalendar(2014, 11, 12, 12, 30))
+//                .endTime(new GregorianCalendar(2014, 11, 12, 12, 40))
+//                .title("Lunch")
+//                .build();
+//        service.addEvent(e);
 
-        List<String> emails1 = new ArrayList<String>();
-        emails1.add("555@eee.com");
-        emails1.add("222@bbb.com");
-        emails1.add("567@efg.com");
-
-        service.addEvent(new Event.Builder()
-                .id(UUID.randomUUID())
-                .startTime(new GregorianCalendar(2014, 11, 12, 10, 15))
-                .endTime(new GregorianCalendar(2014, 11, 12, 21, 15))
-                .description("День рождения у Васи.")
-                .title("Birthday")
-                .attenders(emails0)
-                .build());
-
-        service.addEvent(new Event.Builder()
-                .id(UUID.randomUUID())
-                .startTime(new GregorianCalendar(2014, 9, 10, 2, 15))
-                .endTime(new GregorianCalendar(2014, 9, 10, 12, 30))
-                .title("Party")
-                .attenders(emails1)
-                .build());
-
-        Event e = new Event.Builder()
-                .id(UUID.randomUUID())
-                .startTime(new GregorianCalendar(2014, 11, 12, 12, 30))
-                .endTime(new GregorianCalendar(2014, 11, 12, 12, 40))
-                .title("Lunch")
-                .build();
-        service.addEvent(e);
-
-        Event er = service.searchByAttendeeByTime("567@efg.com",new GregorianCalendar(2014, 9, 10, 2, 15));
-        System.out.println(er.getTitle());
-
-
-
+        List<Event> list = service.getEventBySubTitle("Par");
+        for (Event event : list) {
+            System.out.println(event.toString());
+        }
     }
 }

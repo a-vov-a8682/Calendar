@@ -12,4 +12,5 @@ public interface DataStore{
     Event getEvent (UUID id);
     void editEvent (Event oldEvent, Event newEvent);
     List<Event> getEventBySubTitle (String subTitle);
+    void initEventsFromXml ();
     }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventAdapter>
+    <attenders>111@aaa.com</attenders>
+    <attenders>222@bbb.com</attenders>
+    <attenders>333@ccc.com</attenders>
+    <attenders>444@ddd.com</attenders>
+    <description>День рождения у Васи.</description>
+    <endTime>2014-12-12T21:15:00+02:00</endTime>
+    <id>f1bcc12e-b2a0-4d0e-8d26-c32ae1be3882</id>
+    <startTime>2014-12-12T10:15:00+02:00</startTime>
+    <title>Birthday</title>
+</eventAdapter>

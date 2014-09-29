@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventAdapter>
+    <attenders>555@eee.com</attenders>
+    <attenders>222@bbb.com</attenders>
+    <attenders>567@efg.com</attenders>
+    <endTime>2014-10-10T22:30:00+03:00</endTime>
+    <id>dd3491ae-b54c-48d9-88b0-a3a15df311a8</id>
+    <startTime>2014-09-10T21:15:00+03:00</startTime>
+    <title>World</title>
+</eventAdapter>

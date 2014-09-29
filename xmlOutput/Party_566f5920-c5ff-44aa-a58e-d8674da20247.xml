@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventAdapter>
+    <attenders>555@eee.com</attenders>
+    <attenders>222@bbb.com</attenders>
+    <attenders>567@efg.com</attenders>
+    <endTime>2014-10-10T12:30:00+03:00</endTime>
+    <id>566f5920-c5ff-44aa-a58e-d8674da20247</id>
+    <startTime>2014-10-10T02:15:00+03:00</startTime>
+    <title>Party</title>
+</eventAdapter>
