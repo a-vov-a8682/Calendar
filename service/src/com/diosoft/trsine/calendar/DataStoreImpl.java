@@ -64,7 +64,7 @@ public class DataStoreImpl implements DataStore {
     }
     @Override
     public void initEventsFromXml() {
-        final String PATH_TO_EVENTS = "C:\\Users\\VovaASUS\\Desktop\\Java\\IdeaProjects\\calendar\\xmlOutput\\";
+        final String PATH_TO_EVENTS = "D:\\Java\\IdeaProjects\\calendar\\xmlOutput";
         final List<Event> eventList = new ArrayList<Event>();
         try {
             Files.walkFileTree(Paths.get(PATH_TO_EVENTS), new SimpleFileVisitor<Path>() {
@@ -88,7 +88,7 @@ public class DataStoreImpl implements DataStore {
 
     private void saveAsXml (Event event) {
         try {
-            File file = new File("C:\\Users\\VovaASUS\\Desktop\\Java\\IdeaProjects\\calendar\\xmlOutput\\" + event.getTitle() + "_" + event.getId() + ".xml");
+            File file = new File("D:\\Java\\IdeaProjects\\calendar\\xmlOutput" + event.getTitle() + "_" + event.getId() + ".xml");
             JAXBContext jaxbContext = JAXBContext.newInstance(EventAdapter.class);
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 
@@ -103,7 +103,7 @@ public class DataStoreImpl implements DataStore {
         }
     }
     private void deleteXml(Event event) {
-        Path path = Paths.get("C:\\Users\\VovaASUS\\Desktop\\Java\\IdeaProjects\\calendar\\xmlOutput\\" + event.getTitle() + "_" + event.getId() + ".xml");
+        Path path = Paths.get("D:\\Java\\IdeaProjects\\calendar\\xmlOutput" + event.getTitle() + "_" + event.getId() + ".xml");
         try {
             Files.delete(path);
         } catch (IOException e) {
